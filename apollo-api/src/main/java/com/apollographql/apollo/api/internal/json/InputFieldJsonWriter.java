@@ -212,7 +212,7 @@ public class InputFieldJsonWriter implements InputFieldWriter {
           writeNumber(((CustomTypeValue.GraphQLNumber) customTypeValue).value);
         } else if (customTypeValue instanceof CustomTypeValue.GraphQLJsonObject
             || customTypeValue instanceof CustomTypeValue.GraphQLJsonList) {
-          Utils.writeToJson(value, jsonWriter);
+          Utils.writeToJson(customTypeValue.value, jsonWriter);
         } else {
           throw new IllegalArgumentException("Unsupported custom value type: " + customTypeValue);
         }
