@@ -28,7 +28,7 @@ import kotlin.collections.List
 import kotlin.jvm.Throws
 import okio.BufferedSource
 
-@Suppress("NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
+@Suppress("DEPRECATION", "NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
     "RemoveExplicitTypeArguments", "NestedLambdaShadowedImplicitParameter")
 class HeroDetailQuery : Query<HeroDetailQuery.Data, HeroDetailQuery.Data, Operation.Variables> {
   override fun operationId(): String = OPERATION_ID

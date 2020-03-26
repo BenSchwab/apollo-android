@@ -13,7 +13,7 @@ import kotlin.Array
 import kotlin.String
 import kotlin.Suppress
 
-@Suppress("NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
+@Suppress("DEPRECATION", "NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
     "RemoveExplicitTypeArguments", "NestedLambdaShadowedImplicitParameter")
 data class HumanDetails(
   val __typename: String = "Human",

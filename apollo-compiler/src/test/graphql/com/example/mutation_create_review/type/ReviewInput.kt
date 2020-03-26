@@ -19,7 +19,7 @@ import kotlin.collections.List
 /**
  * The input object sent when someone is creating a new review
  */
-@Suppress("NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
+@Suppress("DEPRECATION", "NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
     "RemoveExplicitTypeArguments", "NestedLambdaShadowedImplicitParameter")
 internal data class ReviewInput(
   /**

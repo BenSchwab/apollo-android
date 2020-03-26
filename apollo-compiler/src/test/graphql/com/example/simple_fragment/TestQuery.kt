@@ -26,7 +26,7 @@ import kotlin.Suppress
 import kotlin.jvm.Throws
 import okio.BufferedSource
 
-@Suppress("NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
+@Suppress("DEPRECATION", "NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
     "RemoveExplicitTypeArguments", "NestedLambdaShadowedImplicitParameter")
 internal class TestQuery : Query<TestQuery.Data, TestQuery.Data, Operation.Variables> {
   override fun operationId(): String = OPERATION_ID

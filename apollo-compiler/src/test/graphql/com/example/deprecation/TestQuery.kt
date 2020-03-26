@@ -32,7 +32,7 @@ import kotlin.jvm.Throws
 import kotlin.jvm.Transient
 import okio.BufferedSource
 
-@Suppress("NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
+@Suppress("DEPRECATION", "NAME_SHADOWING", "UNUSED_ANONYMOUS_PARAMETER", "LocalVariableName",
     "RemoveExplicitTypeArguments", "NestedLambdaShadowedImplicitParameter")
 data class TestQuery(
   val episode: Input<Episode> = Input.absent()
